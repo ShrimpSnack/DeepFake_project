@@ -19,12 +19,17 @@ Deepfake technology for depressed patient
 모델은 CNN기반 모델을 사용하였다.
 
 ## Code_inform
+### 개별코드
 - [Deepfake](https://github.com/ShrimpSnack/DeepFake_project/blob/main/code/Deepfake_face.ipynb)
   - 입력된 Video에서의 얼굴을 target image로 변환.
   - Google colab 환경에서 실행 or cuda toolkit & pytorch_gpu 설치 필요
 - [Emotion](https://github.com/ShrimpSnack/DeepFake_project/blob/main/code/Emotion.ipynb)
   - Real-time으로 얼굴표정으로 부터의 Emotion detection
-
+### 통합코드
+- 실행방법
+```
+```
+- 코드
 ## 참고자료
 - [real time deepfake code](https://github.com/sugyeong-yu/avatarify-python)
 - [youtube(deepfake)](https://www.youtube.com/watch?v=ItA_24srjyI&t=598s)
