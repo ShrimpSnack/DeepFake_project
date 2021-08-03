@@ -27,9 +27,9 @@ Deepfake technology for depressed patient
 - [Emotion](https://github.com/ShrimpSnack/DeepFake_project/blob/main/code/Emotion.ipynb)
   - Real-time으로 얼굴표정으로 부터의 Emotion detection
 ### 통합코드
-- [corona_blue]()
+- [corona_blue](https://github.com/sugyeong-yu/DeepFake_project/tree/main/code/%5Bavatarify%5DCoronablue)
  - 기존 깃헙에 제공하던 deepfake 코드를 참고하여 감정인식기술을 추가
- - [기존깃헙](https://github.com/sugyeong-yu/avatarify-python) clone 후 afy dir의 code를 [[avatarify]Coronablue]()로 교체
+ - [기존깃헙](https://github.com/sugyeong-yu/avatarify-python) clone 후 afy dir의 code를 [[avatarify]Coronablue](https://github.com/sugyeong-yu/DeepFake_project/tree/main/code/%5Bavatarify%5DCoronablue)로 교체
  - 실시간으로 웹캠을 통해 frame을 받아와 얼굴 비식별화(deep fake)와 감정인식을 해줌
  - pytorch(cpu버전 사용시 딜레이발생가능), anaconda 외 모듈 설치필요
 - 실행방법(cmd)
