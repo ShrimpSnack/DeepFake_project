@@ -22,7 +22,7 @@
 ![image](https://user-images.githubusercontent.com/70633080/147628433-36b14124-625b-44f0-b519-c54006a492d8.png)
 - Source: source image는 애니메이션을 적용하려는 이미지
 - Drive frame : Drive frame은 원하는 motion이 포함된 video object , 해당 motion을 source image에 포함하는 것이 목적
-- motion module: S와 D를 입력으로 받아 ,key point mapping, 로컬아핀변환을 통해 생성된 video를 출력으로 하는 부분
+- otion module: S와 D를 입력으로 받아 ,key point mapping, 로컬아핀변환을 통해 생성된 video를 출력으로 하는 부분
    - Key point detector : S와 D 모두에서 핵심 포인트를 예측하는 감지기 
    - 로컬아핀변환: 각 key point 뿐만아니라 주변에서의 motion을 수행할 수 있도록 변환.  
 - Generation module: Drive video sequence에서 제공되는 motion으로 source image를 렌더링한다. S를 왜곡하고 source image에서 가려진 image 부분을 생성하는 생성네트워크를 사용
