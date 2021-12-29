@@ -45,3 +45,4 @@ run_windows.bat
 - [youtube(deepfake_image)](https://www.youtube.com/watch?v=sKDPunhmzkk)
 - [youtube(model)](https://youtu.be/u-0cQ-grXBQ)
 - [first-order-motion-model](https://rubikscode.net/2020/05/25/create-deepfakes-in-5-minutes-with-first-order-model-method/)
+- [emotion detect model](https://github.com/petercunha/Emotion)
