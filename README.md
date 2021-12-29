@@ -1,10 +1,10 @@
-# DeepFake_project
-Deepfake technology for depressed patient  
+# Deepfake technology for depressed patient  
 딥페이크 기술을 이용한 비대면 코로나 블루 진단
 
 ## Necessity
 - 대면 진료의 어려움
-- 비대면 진료 시 환자들의 거부 반응
+- 제3자에게 얼굴 노출에 대한 거부감과 불편함
+- 얼굴 정보 비식별화를 통해 얼굴 노출에 대한 불안감을 해소, 감정 분석을 통해 실시간으로 비대면 진료가 가능 
 
 ## Contributes
 - 실시간 비대면 진료
