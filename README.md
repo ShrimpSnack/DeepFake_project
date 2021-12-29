@@ -13,8 +13,8 @@
 
 ## Detail of Function
 - 얼굴 비식별화
- ```First Order Motion Model```을 사용하여 얼굴 데이터셋인 VoxCelebDataset을 사용하여 모델을 FineTuning 시킨다
-- 표정인식
+ ```First Order Motion Model```을 사용하여 얼굴 데이터셋인 VoxCelebDataset을 사용하여 모델을 FineTuning 시킨다.
+- 표정 분석을 통한 감정 인식
 ```Fer2013``` Dataset을 사용하여 총 7개의 감정을 분류    
 모델은 CNN기반 모델을 사용하였다.
 
