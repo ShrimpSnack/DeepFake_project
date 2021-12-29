@@ -28,10 +28,10 @@
 - Generation module: Drive video sequence에서 제공되는 motion으로 source image를 렌더링한다. S를 왜곡하고 Occlusion mask를 이용해 source image에서 가려진 image 부분을 생성하는 생성네트워크를 사용
 
 > ##### 1. 로컬 아핀 변환
-> ![image](https://user-images.githubusercontent.com/70633080/147630848-2486179c-d174-4dac-b75f-d32d6120e9a0.png)
 > - https://arxiv.org/abs/2003.00196 
 > - D에서 역방향 광학 흐름을 추정한다. 
 > - Key point를 근사화하기위해 First order Taylor Series 확장을 사용한다.
+> ![image](https://user-images.githubusercontent.com/70633080/147630848-2486179c-d174-4dac-b75f-d32d6120e9a0.png)
 > ##### 2. 테일러 확장
 > 
 #### 사용한 손실 함수
