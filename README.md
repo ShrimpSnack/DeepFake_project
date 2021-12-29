@@ -32,10 +32,7 @@
  - [기존깃헙](https://github.com/sugyeong-yu/avatarify-python) clone 후 afy dir의 code를 [[avatarify]Coronablue](https://github.com/sugyeong-yu/DeepFake_project/tree/main/code/%5Bavatarify%5DCoronablue)로 교체
  - 실시간으로 웹캠을 통해 frame을 받아와 얼굴 비식별화(deep fake)와 감정인식을 해줌
  - pytorch(cpu버전 사용시 딜레이발생가능), anaconda 외 모듈 설치필요
-- 실행방법(cmd)
-```
-run_windows.bat
-```
+- 실행방법(cmd) ``` run_windows.bat ```
 
 ## 참고자료
 - [real time deepfake code(github)](https://github.com/sugyeong-yu/avatarify-python)
