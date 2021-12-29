@@ -30,7 +30,8 @@
 ##### 1. 로컬 아핀 변환
 ![image](https://user-images.githubusercontent.com/70633080/147630848-2486179c-d174-4dac-b75f-d32d6120e9a0.png)
 - https://arxiv.org/abs/2003.00196 
-- D에서 역방향 광학 흐름 
+- D에서 역방향 광학 흐름을 추정한다. 
+- Key point를 근사화하기위해 First order Taylor Series 확장을 사용한다.
 
 ### 2. 표정 분석을 통한 감정 인식
 ```Fer2013``` Dataset을 사용하여 총 7개의 감정을 분류    
