@@ -18,7 +18,12 @@
 - video sequence를 사용하여 원하는 motion과 object로 video sequence를 생성한다. 
 - 즉, video object와 source object에 여러 지점을 표시(Key point)한 후 video objct와 일치하도록 source의 해당 지점 근처에서 변환(로컬아핀변환)을 생성
 ![image](https://user-images.githubusercontent.com/70633080/147628433-36b14124-625b-44f0-b519-c54006a492d8.png)
-
+1. Source: source image는 애니메이션을 적용하려는 이미지
+2. Drive frame : Drive frame은 원하는 motion이 포함된 video object , 해당 motion을 source image에 포함하는 것이 목적
+3. motion module: S와 D를 입력으로 받아 ,key point mapping, 로컬아핀변환을 통해 생성된 video를 출력으로 하는 부분
+ 1. Key point detector : S와 D 모두에서 핵심 포인트를 예측하는 감지기 
+ 2. 로컬아핀변환 ㅣ 각 key point 뿐만아니라 주변에서의 motion을 수행할 수 있도록 변환.  
+4. Generation module: 
 ### 2. 표정 분석을 통한 감정 인식
 ```Fer2013``` Dataset을 사용하여 총 7개의 감정을 분류    
 모델은 CNN기반 모델을 사용하였다.
