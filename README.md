@@ -16,7 +16,7 @@
  ```First Order Motion Model```을 사용하여 얼굴 데이터셋인 VoxCelebDataset을 사용하여 모델을 FineTuning 시킨다.
 #### Image animation 이란?
 - video sequence를 사용하여 원하는 motion과 object로 video sequence를 생성한다. 
-- 즉, video object와 source object에 여러 지점을 표시(Key point)한 후 video objct와 일치하도록 source의 해당 지점 근처에서 변환(로컬아핀변환)을 생성
+- 즉, video object와 source object에 여러 지점을 표시(Key point)한 후 video object와 일치하도록 source의 해당 지점 근처에서 변환(로컬아핀변환)을 생성
 ![image](https://user-images.githubusercontent.com/70633080/147628433-36b14124-625b-44f0-b519-c54006a492d8.png)
 1. Source: source image는 애니메이션을 적용하려는 이미지
 2. Drive frame : Drive frame은 원하는 motion이 포함된 video object , 해당 motion을 source image에 포함하는 것이 목적
