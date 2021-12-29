@@ -23,7 +23,8 @@
 3. motion module: S와 D를 입력으로 받아 ,key point mapping, 로컬아핀변환을 통해 생성된 video를 출력으로 하는 부분
    1. Key point detector : S와 D 모두에서 핵심 포인트를 예측하는 감지기 
    2. 로컬아핀변환: 각 key point 뿐만아니라 주변에서의 motion을 수행할 수 있도록 변환.  
-4. Generation module: 
+4. Generation module: Drive video sequence에서 제공되는 motion으로 source image를 렌더링한다. 
+
 ### 2. 표정 분석을 통한 감정 인식
 ```Fer2013``` Dataset을 사용하여 총 7개의 감정을 분류    
 모델은 CNN기반 모델을 사용하였다.
