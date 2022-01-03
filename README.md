@@ -12,12 +12,12 @@
 - DeepFake을 이용한 얼굴 비식별화
 
 ## Detail of Function
-### 1. 얼굴 비식별화
+### 1. Deep fake를 이용한 얼굴 비식별화
  ```First Order Motion Model```을 사용하여 얼굴 데이터셋인 VoxCelebDataset을 사용하여 모델을 FineTuning 시킨다.
 - 기존의 Deepfake : Autoincoder + GAN
 - 한계: 기존 Deepfake는 추가정보를 필요로 한다는 것 ex) 머리움직임 매핑 > 얼굴 랜드마크 , 전신 움직임 > 포즈 추정
 - **First Order Motion Model for Image Animation은 추가정보가 필요로 하지 않다는 것.**
-
+ - 논문-https://arxiv.org/abs/2003.00196 
 #### Image animation 이란?
 - video sequence를 사용하여 원하는 motion과 object로 video sequence를 생성한다. 
 - 전체 프로세스 : Motion 추출 / Motion video 생성
@@ -32,13 +32,12 @@
    - 로컬아핀변환: 각 key point 뿐만아니라 주변에서의 motion을 수행할 수 있도록 변환.  
 - Generation module: Drive video sequence에서 제공되는 motion으로 source image를 렌더링한다. S를 왜곡하고 Occlusion mask를 이용해 source image에서 가려진 image 부분을 생성하는 생성네트워크를 사용
 
-> ##### 1. 로컬 아핀 변환
-> - https://arxiv.org/abs/2003.00196 
-> - D에서 역방향 광학 흐름을 추정한다. 
-> - Key point를 근사화하기위해 First order Taylor Series 확장을 사용한다.
-> ![image](https://user-images.githubusercontent.com/70633080/147630848-2486179c-d174-4dac-b75f-d32d6120e9a0.png)
-> ##### 2. 테일러 확장
-> 
+##### 로컬 아핀 변환
+- D에서 역방향 광학 흐름을 추정한다. 
+- Key point를 근사화하기위해 First order Taylor Series 확장을 사용한다.
+![image](https://user-images.githubusercontent.com/70633080/147630848-2486179c-d174-4dac-b75f-d32d6120e9a0.png)
+##### 테일러 확장
+ 
    
 ### 2. 표정 분석을 통한 감정 인식
 ```Fer2013``` Dataset을 사용하여 총 7개의 감정을 분류    
