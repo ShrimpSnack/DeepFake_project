@@ -24,7 +24,7 @@
   - video object와 source object에 여러 지점을 표시(Key point)한 후 video object와 일치하도록 source의 해당 지점 근처에서 변환(로컬아핀변환)을 생성
 
 #### Image animation을 위한 first order model
-![image](https://user-images.githubusercontent.com/70633080/147628433-36b14124-625b-44f0-b519-c54006a492d8.png)
+![image](https://user-images.githubusercontent.com/70633080/147919500-6ab1af0c-5392-4160-baba-2aaf4e44ff3b.png)
 - Source: source image는 애니메이션을 적용하려는 이미지
 - Drive frame : Drive frame은 원하는 motion이 포함된 video object , 해당 motion을 source image에 포함하는 것이 목적
 - Motion module: S와 D를 입력으로 받아 ,key point mapping, 로컬아핀변환을 통해 생성된 video를 출력으로 하는 부분
