@@ -14,6 +14,10 @@
 ## Detail of Function
 ### 1. 얼굴 비식별화
  ```First Order Motion Model```을 사용하여 얼굴 데이터셋인 VoxCelebDataset을 사용하여 모델을 FineTuning 시킨다.
+- 기존의 Deepfake : Autoincoder + GAN
+- 한계: 기존 Deepfake는 추가정보를 필요로 한다는 것 ex) 머리움직임 매핑 > 얼굴 랜드마크 , 전신 움직임 > 포즈 추정
+- First Order Motion Model for Image Animation은 추가정보가 필요로 하지 않다는 것.
+
 #### Image animation 이란?
 - video sequence를 사용하여 원하는 motion과 object로 video sequence를 생성한다. 
 - 즉, video object와 source object에 여러 지점을 표시(Key point)한 후 video object와 일치하도록 source의 해당 지점 근처에서 변환(로컬아핀변환)을 생성
