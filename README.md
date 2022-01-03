@@ -29,6 +29,7 @@
 - Drive frame(D) : Drive frame은 원하는 motion이 포함된 video object , 해당 motion을 source image에 포함하는 것이 목적
 - Motion module: S와 D를 입력으로 받아 key point detect, 로컬아핀변환을 통해 **Dense optical flow와 Occlusion map을 생성**
    - Key point detector 
+        - Key point : 이미지의 특징점, 보통 물체의 모서리나 코너 
         - Autoencoder를 이용하여 S와 D 모두에서 핵심 키 포인트를 예측하는 감지기 
    - 로컬아핀변환
         - 각 key point 뿐만아니라 주변에서의 motion을 수행할 수 있도록 변환. 
