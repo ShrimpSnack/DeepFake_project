@@ -43,7 +43,8 @@
 ### 2. 표정 분석을 통한 감정 인식
 ```Fer2013``` Dataset을 사용하여 총 7개의 감정을 분류
 - 논문: https://github.com/oarriaga/face_classification/blob/master/report.pdf
-- CNN 기반 모델 사용\
+- 얼굴 인식 : ```haarcascade_frontalface_default.xml``` 사용
+- 감정 인식: CNN 기반 모델 (논문 참고) 사용 ```emotion_model.hdf5``` \
 ![image](https://user-images.githubusercontent.com/70633080/147922923-c6be8db4-52fa-49e1-8f81-656837be6ec6.png)
 
 
