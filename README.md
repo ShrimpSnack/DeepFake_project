@@ -19,7 +19,8 @@
 
 ## Detail of Technique
 ### 1. Deep fake를 이용한 얼굴 비식별화
- ```First Order Motion Model```을 사용하여 얼굴 데이터셋인 VoxCelebDataset을 사용하여 모델을 FineTuning 시킨다.
+ ```First Order Motion Model```을 사용하여 얼굴 데이터셋인 VoxCelebDataset을 사용하여 모델을 FineTuning 시킨다.\
+![mona](https://user-images.githubusercontent.com/70633080/147925725-a27e7538-7584-43bd-b196-b17f3c454c27.gif)
 - 기존의 Deepfake : Autoencoder + GAN
 - 한계: 기존 Deepfake는 추가정보를 필요로 한다는 것 ex) 머리움직임 매핑 > 얼굴 랜드마크 , 전신 움직임 > 포즈 추정
 - **First Order Motion Model for Image Animation은 추가정보가 필요로 하지 않다는 것.**
