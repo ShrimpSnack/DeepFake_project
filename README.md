@@ -20,7 +20,8 @@
 
 #### Image animation 이란?
 - video sequence를 사용하여 원하는 motion과 object로 video sequence를 생성한다. 
-- 즉, video object와 source object에 여러 지점을 표시(Key point)한 후 video object와 일치하도록 source의 해당 지점 근처에서 변환(로컬아핀변환)을 생성
+- 전체 프로세스 : Motion 추출 | Motion video 생성
+  - video object와 source object에 여러 지점을 표시(Key point)한 후 video object와 일치하도록 source의 해당 지점 근처에서 변환(로컬아핀변환)을 생성
 
 #### Image animation을 위한 first order model
 ![image](https://user-images.githubusercontent.com/70633080/147628433-36b14124-625b-44f0-b519-c54006a492d8.png)
