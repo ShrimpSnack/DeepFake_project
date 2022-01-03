@@ -13,7 +13,7 @@
 ## Result 
 ![image](https://user-images.githubusercontent.com/70633080/147924467-2a753856-aa2e-46ea-bf80-6794a726f9bd.png)\
 ![image](https://user-images.githubusercontent.com/70633080/147924472-e0734742-b00a-4939-a9d2-78b6f7cd0b6c.png)\
-<비대면 코로나 진단 프로그램 예시 (a) Happy (b) Surprising (c) Sad (d) Neutral>
+- 비대면 코로나블루 진단 프로그램 예시: (a) Happy (b) Surprising (c) Sad (d) Neutral
 - 본인의 얼굴을 연예인얼굴로 대체함으로써 얼굴 노출의 부담감 감소, 개인정보보호 가능
 - 표정 정보를 보존하고 딥러닝  감정 분석을 통해 코로나 블루 진단 보조
 
