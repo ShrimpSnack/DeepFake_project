@@ -42,7 +42,9 @@
    
 ### 2. 표정 분석을 통한 감정 인식
 ```Fer2013``` Dataset을 사용하여 총 7개의 감정을 분류    
-모델은 CNN기반 모델을 사용하였다.
+- CNN기반 모델 사용
+![image](https://user-images.githubusercontent.com/70633080/147922923-c6be8db4-52fa-49e1-8f81-656837be6ec6.png)
+
 
 ## Code_inform
 ### 개별코드
