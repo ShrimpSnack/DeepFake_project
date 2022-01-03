@@ -27,7 +27,7 @@
 ![image](https://user-images.githubusercontent.com/70633080/147919500-6ab1af0c-5392-4160-baba-2aaf4e44ff3b.png)
 - Source(S): source image는 애니메이션을 적용하려는 이미지
 - Drive frame(D) : Drive frame은 원하는 motion이 포함된 video object , 해당 motion을 source image에 포함하는 것이 목적
-- Motion module: S와 D를 입력으로 받아 key point detect, 로컬아핀변환을 통해 Dense optical flow와 Occlusion map을 생성
+- Motion module: S와 D를 입력으로 받아 key point detect, 로컬아핀변환을 통해 **Dense optical flow와 Occlusion map을 생성**
    - Key point detector 
         - Autoencoder를 이용하여 S와 D 모두에서 핵심 키 포인트를 예측하는 감지기 
    - 로컬아핀변환
@@ -35,7 +35,8 @@
         - D에서 역방향 광학 흐름을 추정한다. 
         - Key point를 근사화하기위해 First order Taylor Series 확장을 사용한다.
         - Taylor Series : 어떤 미지의 함수 f(x)를 근사 다항함수로 표현하는 것 
-- Generation module: Drive video sequence에서 제공되는 motion으로 source image를 렌더링한다. S를 왜곡하고 Occlusion mask를 이용해 source image에서 가려진 image 부분을 생성하는 생성네트워크를 사용
+- Generation module: Drive video sequence에서 제공되는 motion으로 source image를 렌더링한다. 
+    - S를 왜곡하고 Occlusion mask를 이용해 source image에서 가려진 image 부분을 생성하는 생성네트워크를 사용
 
 ##### 로컬 아핀 변환
 ![image](https://user-images.githubusercontent.com/70633080/147630848-2486179c-d174-4dac-b75f-d32d6120e9a0.png)
