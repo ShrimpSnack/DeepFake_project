@@ -10,6 +10,8 @@
 - 실시간 비대면 진료
 - DeepLearning을 이용한 감정인식
 - DeepFake을 이용한 얼굴 비식별화
+## Result 
+
 
 ## Detail of Technique
 ### 1. Deep fake를 이용한 얼굴 비식별화
@@ -41,7 +43,8 @@
 
    
 ### 2. 표정 분석을 통한 감정 인식
-```Fer2013``` Dataset을 사용하여 총 7개의 감정을 분류
+```Fer2013``` Dataset을 사용하여 총 7개의 감정을 분류\
+![image](https://user-images.githubusercontent.com/70633080/147924377-6321b905-7a1b-4349-9fe8-7013c441f662.png)
 - 논문: https://github.com/oarriaga/face_classification/blob/master/report.pdf
 - 얼굴 인식 : ```haarcascade_frontalface_default.xml``` 사용
 - 감정 인식: CNN 기반 모델 (논문 참고) 사용 ```emotion_model.hdf5``` \
